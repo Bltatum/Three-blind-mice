@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.employees{
+    border: solid;
+    padding: 1rem;
+}
+.customers{
+    border: solid;
+    padding: 1rem;
+}
+h1{
+    text-decoration: underline;
+}

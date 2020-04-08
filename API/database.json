@@ -1,0 +1,178 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Acer",
+            "year": 2012
+        },
+         {
+            "id": 3,
+            "model": "Dell",
+            "year": 2018
+        }, 
+        {
+            "id": 4,
+            "model": "Lenevo",
+            "year": 2017
+        }, 
+        {
+            "id": 5,
+            "model": "Alienware",
+            "year": 2019
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 24,
+            "computerId": 1,
+            "departmentId": 1,
+            "locationId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Jon",
+            "lastName": "Doe",
+            "age": 33,
+            "computerId": 2,
+            "departmentId": 1,
+            "locationId": 1
+
+        },
+        {
+            "id": 3,
+            "firstName": "Jane",
+            "lastName": "Frank",
+            "age": 29,
+            "computerId": 3,
+            "departmentId": 2,
+            "locationId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Emily",
+            "lastName": "Rose",
+            "age": 27,
+            "computerId": 4,
+            "departmentId": 3,
+            "locationId": 2
+        },
+        {
+            "id": 5,
+            "firstName": "Bill",
+            "lastName": "Duke",
+            "age": 36,
+            "computerId": 5,
+            "departmentId": 4,
+            "locationId": 3
+        }
+    ],
+    "department": [
+        {
+            "id": 1,
+            "name": "sales"
+        },
+        {
+            "id": 2,
+            "name": "accounting"
+        },
+        {
+            "id": 3,
+            "name": "quality assurance"
+        },
+        {
+            "id": 4,
+            "name": "I.T."
+        }
+    ],
+    "location": [
+        {
+            "id": 1,
+            "name": "Nashville"
+        },
+        {
+            "id": 2,
+            "name": "Memphis"
+        },
+        {
+            "id": 3,
+            "name": "Atlanta"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Juniper Distribution"
+        },
+        {
+            "id": 2,
+            "name": "The Boring Company"
+        },
+        {
+            "id": 3,
+            "name": "Tesla"
+        },
+        {
+            "id": 4,
+            "name": "Amazon"
+        }
+    ],
+    "employeeCustomers": [
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 1
+        },
+        {
+            "id": 2,
+            "customerId": 2,
+            "employeeId": 1
+        },
+        {
+            "id": 3,
+            "customerId": 1,
+            "employeeId": 2
+        },
+        {
+            "id": 4,
+            "customerId": 2,
+            "employeeId": 2
+        },
+        {
+            "id": 5,
+            "customerId": 3,
+            "employeeId": 3
+        },
+        {
+            "id": 6,
+            "customerId": 4,
+            "employeeId": 3
+        },
+        {
+            "id": 1,
+            "customerId": 3,
+            "employeeId": 4
+        },
+        {
+            "id": 1,
+            "customerId": 4,
+            "employeeId": 4
+        },
+        {
+            "id": 1,
+            "customerId": 1,
+            "employeeId": 5
+        }, {
+            "id": 1,
+            "customerId": 4,
+            "employeeId": 5
+        }
+    ]
+}
